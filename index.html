@@ -11,9 +11,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <style>
+        .row {
+            border: 1px solid tomato;
+        }
+
+        .column {
+            border-radius: 10px;
+            gap: 20px;
+            margin-bottom: 100px;
+            background: #21bf2e6c;
+            margin-left: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>আইটেম</th>
+                    <th>দাম</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>১</td>
+                    <td>কীবোর্ড</td>
+                    <td>৳২৫০০</td>
+                </tr>
+                <tr>
+                    <td>২</td>
+                    <td>মাউস</td>
+                    <td>৳১৫০০</td>
+                </tr>
+                <tr>
+                    <td>৩</td>
+                    <td>মনিটর</td>
+                    <td>৳১০,০০০</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 
 
     <div class=" jumbotron jumbotron ">
@@ -24,15 +66,128 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <ul class="nav">
-            <li class="nav-item"><a href="" class="nav-link">link</a></li>
-            <li class="nav-item"><a href="" class="nav-link">link</a></li>
-            <li class="nav-item"><a href="" class="nav-link">link</a></li>
-        </ul>
+                <li class="nav-item"><a href="" class="nav-link">link</a></li>
+                <li class="nav-item"><a href="" class="nav-link">link</a></li>
+                <li class="nav-item"><a href="" class="nav-link">link</a></li>
+            </ul>
         </div>
     </div>
 
-    
+    <!-- nav tab -->
+    <ul class="nav nav-tabs>
+        <li class=" active"><a href="" class="nav-link">home</a></li>
+        <li><a href="" class="nav-link">Menu</a></li>
+        <li><a href="" class="nav-link">contact</a></li>
+    </ul>
 
+    <ul class="nav nav-tabs">
+
+        <li class="nav-item"><a href="#" class="nav-link"></a></li>
+        <li class="nav-item"><a href="#" class="nav-link"></a></li>
+        <li class="nav-item"><a href="#" class="nav-link"></a></li>
+    </ul>
+
+
+
+    <ul class=" jumbotron container ">
+        <li class="  ">Hello</li>
+        <li class=" jumbo "></li>
+        <li></li>
+    </ul>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-8">বিশেষ ঘোষণা</h1>
+            <p class="lead">এই অংশে আপনি আপনার গুরুত্বপূর্ণ বার্তা যুক্ত করতে পারেন।</p>
+        </div>
+    </div>
+
+
+    <!-- <div class="row">
+  <div class="col-md-12">পুরো ১২টি কলাম</div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">৪ কলাম</div>
+  <div class="col-md-4">৪ কলাম</div>
+  <div class="col-md-4">৪ কলাম</div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6">৬ কলাম</div>
+  <div class="col-md-6">৬ কলাম</div>
+</div>
+ -->
+
+    <div class="row">
+        <div class=" col-md-12 ">
+            পুরো ১২টি কলাম
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 column">৪ কলাম</div>
+        <div class="col-md-4">৪ কলাম</div>
+        <div class="col-md-4">৪ কলাম</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">৪ কলাম</div>
+        <div class="col-md-8">৮ কলাম</div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">৪ কলাম</div>
+        <div class="col-md-6">৮ কলাম</div>
+    </div>
+
+
+
+    <div class="container jumbotron ">
+        <div class="row">
+            <div class="col-md-1 column"><span>span-1</span></div>
+            <div class="col-md-1 column"><span>span-2</span></div>
+            <div class="col-md-1 column"><span>span-3</span></div>
+            <div class="col-md-1 column"><span>span-4</span></div>
+            <div class="col-md-1 column"><span>span-5</span></div>
+            <div class="col-md-1 column"><span>span-6</span></div>
+            <div class="col-md-1 column"><span>span-7</span></div>
+            <div class="col-md-1 column"><span>span-8</span></div>
+            <div class="col-md-1 column"><span>span-9</span></div>
+            <div class="col-md-1 column"><span>span-10</span></div>
+            <div class="col-md-1 column"><span>span-11</span></div>
+            <div class="col-md-1 column"><span>span-12</span></div>
+        </div>
+    </div>
+
+
+
+    <img src="Assets/room.jpg" width="300px" height="auto" class="rounded" alt="Rounded Image"> <br>
+    <img src="Assets/room.jpg" width="300px" height="auto" class="rounded-circle" alt="Circle Image"> <br>
+    <img src="Assets/room.jpg" width="300px" height="auto" class="img-thumbnail" alt="Thumbnail Image"> <br>
+    <img src="Assets/room.jpg" width="300px" height="auto" class="img-fluid" alt="Responsive Image">
+
+    <!-- button -->
+     <br>
+
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Primary</button>
+    <button class="btn btn-success">Primary</button>
+    <button class="btn btn-info">Primary</button>
+    <button class="btn btn-dander">Primary</button>
+    <button class="btn btn-warning">Primary</button>
+    <button class="btn btn-dark">Primary</button>
+    <button class="btn btn">Primary</button>
+
+
+    <button type="button" class="btn btn-primary disable">Button</button>
+    <input type="submit" value="sumbit" class="btn btn-warning"> <br>
+    <a href="">News <span class=" badge "> 5</span> </a>
+
+    <div class="container">
+        <h1>Example <span class=" label label-default ">New</span></h1>
+
+    </div>
 
 
 </body>
